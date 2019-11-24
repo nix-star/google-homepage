@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Google</title>
+	<style>
+
+		body {
+			  margin: 0;
+		}
+
+		a, a:hover{
+			color: black;
+			font-family: arial,sans-serif;
+			font-size: 13px;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		header {
+			text-align: right;
+		}
+
+		.cen {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border:1px solid black;
+			position: relative;
+			top: 10em;
+		}
+
+		footer a {
+			padding: 2px;
+			display: inline;
+			justify-content: center;
+			align-items: center;
+			/*display: inline;*/
+			position: relative;
+			top: 10px;
+		}
+
+		.foo {
+			border: 1px solid black;
+			height: 80px;
+			align-content: bottom;
+			position: relative; 
+			top:477px;
+			background: silver;
+		}
+
+		#fooinf {
+			display: inline;
+		}
+	
+		#foosup {
+			justify-content: start;
+			padding: 0 10px;
+		}
+
+		footer {
+			height: 38px;
+			border: 1px solid white;
+			display: flex;
+			align-items: center;
+		}
+		
+		.izq {
+			float: left;
+		}
+
+		.der {
+			float: right;
+		}
+
+	</style>
+</head>
+
+<body>
+
+	<header>
+		<a href=#>Gmail</a>
+		<a href=#>Imágenes</a>
+	</header>
+
+	<div class="cen"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></div>
+	
+<div class="foo">
+	<footer id="foosup">
+		<p>Argentina</p>
+	</footer>
+	<footer id="fooinf">
+		<div class="izq">
+			<a href=#>Enlace 1</a>
+			<a href=#>Enlace 2</a>
+			<a href=#>Enlace 3</a>
+			<a href=#>Enlace 4</a>
+		</div>
+		<div class="der">
+			<a href=#>Enlace 5</a>
+			<a href=#>Enlace 6</a>
+			<a href=#>Enlace 7</a>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
